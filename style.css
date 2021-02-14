@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-holder{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    
+}
+.carousel-slider{
+    height: 100%;
+    width: 100%;
+}
+.carousel-btn{
+    bottom: 5%;
+    left: 50%;
+    height: 2vh;
+    width: 2vh;
+    position: absolute;
+    border-radius: 100%;
+    outline: 3em;
+    background-color: transparent;
+    border-color: white;
+}
+#btn-first{
+    transform: translateX(-25px);
+}
+#btn-third{
+    transform: translateX(25px);
+}
+.carousel-text {
+    position: absolute;
+    top: 25%;
+    justify-content: center;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    font-size: 2rem;
+    background-color: transparent;
+    color: white;
+}
+.carousel-text h1{
+    line-height: 2rem;
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+.gradButton {
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 20%;
+    padding: 0;
+    outline: 0;
+    padding: 0.75%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    font-size: 2rem;
+    background: rgb(31,225,224);
+    background: linear-gradient(90deg, rgba(31,225,224,1) 25%, rgba(94,51,209,1) 50%, rgba(211,72,72,1) 75%, rgba(255,179,63,1) 100%);
+  }
+  
